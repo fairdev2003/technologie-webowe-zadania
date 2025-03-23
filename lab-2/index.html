@@ -4,18 +4,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prosta Strona HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+            font-size: 24px;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 5px;
+        }
+
+        h3 {
+            color: #4CAF50;
+            font-size: 20px;
+        }
+
+        ul, ol {
+            margin-left: 20px;
+            font-size: 18px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table th, table td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+
+        table th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 20px auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        iframe {
+            padding-top: 50px;
+            display: block;
+            margin: 20px auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
 </head>
 <body>
-    
     <header>
         <h1>Prosta Strona HTML</h1>
         <p>Przykład struktury HTML z różnymi elementami blokowymi, liniowymi, listami, tabelami oraz osadzonymi multimediami.</p>
     </header>
 
-    
     <section>
         <h2>Przykłady elementów blokowych i liniowych</h2>
-        
         
         <div>
             <h3>Element blokowy - <code>&lt;div&gt;</code></h3>
@@ -29,14 +114,13 @@
     <section>
         <h2>Listy</h2>
         
-       
         <h3>Lista nieuporządkowana:</h3>
         <ul>
             <li>Element 1</li>
             <li>Element 2</li>
             <li>Element 3</li>
         </ul>
-        
+
         <h3>Lista uporządkowana:</h3>
         <ol>
             <li>Pierwszy element</li>
@@ -44,10 +128,10 @@
             <li>Trzeci element</li>
         </ol>
     </section>
-    
+
     <section>
         <h2>Tabela 3x3</h2>
-        <table border="1">
+        <table>
             <tr>
                 <th>Kolumna 1</th>
                 <th>Kolumna 2</th>
@@ -71,13 +155,11 @@
         </table>
     </section>
 
-   
     <section>
         <h2>Obraz</h2>
-        <img src="https://i.ytimg.com/vi/1xVMqCjfiaE/maxresdefault.jpg" alt="Przykładowy obraz">
+        <img src="https://via.placeholder.com/150" alt="Przykładowy obraz">
     </section>
 
-    
     <section>
         <h2>Wideo</h2>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/sV34lNlaBVU?si=UEFIysz5QqlA1nDR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -85,10 +167,3 @@
 
 </body>
 </html>
-
-<style>
-    img {
-        width: 20%;
-        height: 20%;
-    }
-</style>
